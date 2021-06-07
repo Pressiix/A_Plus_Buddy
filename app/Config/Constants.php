@@ -86,10 +86,10 @@ $_check_env_file = file_exists(FCPATH.'\.env');
 $dynamic_base_url = $_check_env_file ? 'http://localhost/a-plus-buddy/' : 'https://a-plus-buddy.herokuapp.com/';
 defined('DYNAMIC_BASE') || define('DYNAMIC_BASE',$dynamic_base_url);
 
-$db_hostname = $_check_env_file ? 'localhost' : 'us-cdbr-east-03.cleardb.com';
-$db_username = $_check_env_file ? 'root' : 'be73ce6179ec25';
-$db_password = $_check_env_file ? '' : '35286797';
-$db_name = $_check_env_file ? 'a_plus_buddy' : 'heroku_aa507cb6eb20285';
+$db_hostname = $_check_env_file ? 'xxxxx' : 'xxxxx';
+$db_username = $_check_env_file ? 'xxxxx' : 'xxxxx';
+$db_password = $_check_env_file ? 'xxxxx' : 'xxxxx';
+$db_name = $_check_env_file ? 'xxxxx' : 'xxxxx';
 
 defined('DYNAMIC_DB_HOST') || define('DYNAMIC_DB_HOST',$db_hostname);
 defined('DYNAMIC_DB_USERNAME') || define('DYNAMIC_DB_USERNAME',$db_username);
