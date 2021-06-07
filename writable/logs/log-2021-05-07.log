@@ -1,0 +1,6 @@
+CRITICAL - 2021-05-07 02:18:37 --> Class 'App\Controllers\AddressModel' not found
+#0 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Users->register()
+#1 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\a-plus-buddy\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

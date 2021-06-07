@@ -1,0 +1,13 @@
+{
+    "name": "google/login",
+    "description": "google login with ci4",
+    "authors": [
+        {
+            "name": "Pressiix",
+            "email": "watcharapon.piam@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "2.0"
+    }
+}

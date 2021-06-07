@@ -1,0 +1,16 @@
+CRITICAL - 2021-05-03 06:28:52 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 11:32:40 --> Too few arguments to function App\Controllers\Test::subdistrict(), 0 passed in C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Test->subdistrict()
+#1 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\a-plus-buddy\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-03 11:33:26 --> Undefined index: district_id
+#0 C:\xampp\htdocs\a-plus-buddy\app\Controllers\Test.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Test->subdistrict()
+#2 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#3 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\a-plus-buddy\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

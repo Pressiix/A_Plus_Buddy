@@ -1,0 +1,38 @@
+CRITICAL - 2021-05-11 09:55:34 --> Undefined variable: file
+#0 C:\xampp\htdocs\a-plus-buddy\app\Controllers\Service.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Service->index()
+#2 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#3 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\a-plus-buddy\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-11 09:55:56 --> Undefined variable: path
+#0 C:\xampp\htdocs\a-plus-buddy\app\Controllers\Service.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Service->index()
+#2 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#3 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\a-plus-buddy\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-11 09:58:05 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\a-plus-buddy\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-11 10:21:00 --> Call to undefined function App\Controllers\par()
+#0 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Service->index()
+#1 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#2 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\a-plus-buddy\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-11 11:43:15 --> Trying to get property 'province_id' of non-object
+#0 C:\xampp\htdocs\a-plus-buddy\app\Helpers\address_helper.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\a-plus-buddy\app\Controllers\Service.php(40): getDistrict('840203')
+#2 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Service->district()
+#3 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#4 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\a-plus-buddy\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,16 @@
+CRITICAL - 2021-04-23 01:23:26 --> Call to undefined function App\Controllers\checkLogin()
+#0 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\a-plus-buddy\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-23 14:14:07 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\Debug\Toolbar.php(496): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\Debug\Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\a-plus-buddy\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\a-plus-buddy\vendor\codeigniter4\framework\system\CodeIgniter.php(287): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\a-plus-buddy\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
